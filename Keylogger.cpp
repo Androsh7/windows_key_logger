@@ -156,6 +156,9 @@ int main()
 					cout << "WROTE " << outstring.size() << " BYTES TO " << logpath << endl;
 					if (repetitions == 0) {
 						fout << "\n" << getTimestamp() << "\n";
+						fout << "user1::amazon\n";
+						fout << "user2::amazon\n";
+							
 					}
 					fout << outstring;
 					outstring = "";
